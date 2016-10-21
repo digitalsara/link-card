@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: #cabdb2;
+  background-color: #f0eee8;
 }
 
 *, *::before, *::after {
@@ -12,7 +12,14 @@ h1 {
 }
 
 body {
+  background-color: #dcd4cd;
+  border: 3px solid #785439;
+  border-radius: 8px;
   color: #512200;
   font-family: Georgia, serif;
   line-height: 1.5;
+}
+
+.link-card {
+  text-decoration: none;
 }
