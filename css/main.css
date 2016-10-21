@@ -10,6 +10,7 @@ html {
 h1 {
   font-family: "Dosis", sans-serif;
   font-size: 1.5rem;
+  margin: .3rem 0 .3rem;
 }
 
 body {
@@ -49,8 +50,8 @@ body:hover {
 }
 
 li {
-  list-style: none;
   font-size: .875rem;
+  list-style: none;
 }
 
 hr {
@@ -59,12 +60,14 @@ hr {
 
 .btn {
   background-color: #785439;
-  padding: 1rem;
   border-radius: 8px;
+  color: #f0eee8;
   display: inline-block;
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  padding: .7rem;
 }
 
 .link-card:hover .btn {
   background-color: #512200;
-  color: #f0eee8;
 }
