@@ -9,6 +9,7 @@ html {
 
 h1 {
   font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
 }
 
 body {
@@ -16,12 +17,21 @@ body {
   border: 3px solid #785439;
   border-radius: 8px;
   font-family: Georgia, serif;
+  font-size: 1.125rem;
   line-height: 1.5;
+}
+
+body:hover {
+  background-color: #cabdb2;
 }
 
 .link-card {
   color: #512200;
   text-decoration: none;
+}
+
+.link-card:hover {
+
 }
 
 .two-columns {
@@ -39,4 +49,5 @@ body {
 
 li {
   list-style: none;
+  font-size: .875rem;
 }
