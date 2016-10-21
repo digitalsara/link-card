@@ -24,11 +24,6 @@ body {
   text-decoration: none;
 }
 
-dt, dd {
-  display: table-cell;
-  padding-right: 4rem;
-}
-
 .two-columns {
   -webkit-column-count: 2;
   -moz-column-count: 2;
@@ -36,4 +31,12 @@ dt, dd {
   -webkit-column-gap: 40px;
   column-gap: 40px;
   -moz-column-gap: 40px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+li {
+  list-style: none;
 }
