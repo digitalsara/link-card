@@ -14,11 +14,12 @@ h1 {
 
 body {
   background-color: #dcd4cd;
-  border: 3px solid #785439;
+  border: 3px solid #9a816d;
   border-radius: 8px;
   font-family: Georgia, serif;
   font-size: 1.125rem;
   line-height: 1.5;
+  padding: .4em .75em .5em;
 }
 
 body:hover {
@@ -50,4 +51,20 @@ body:hover {
 li {
   list-style: none;
   font-size: .875rem;
+}
+
+hr {
+  border: 1px solid #9a816d;
+}
+
+.btn {
+  background-color: #785439;
+  padding: 1rem;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
+  color: #f0eee8;
 }
