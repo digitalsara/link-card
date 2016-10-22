@@ -39,23 +39,23 @@ body:hover {
   -webkit-column-gap: 40px;
   column-gap: 40px;
   -moz-column-gap: 40px;
+  padding: 1rem 9rem 1rem 0;
 }
 
 .italic {
   font-style: italic;
 }
 
-li {
+dd, dt {
   font-size: .875rem;
+  line-height: 1.5;
   list-style: none;
 }
 
-ul {
-  padding: 0;
-}
-
-hr {
-  border: 1px solid #9a816d;
+dl {
+  padding-right: 10rem;
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
 }
 
 .btn {
