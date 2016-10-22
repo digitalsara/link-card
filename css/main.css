@@ -8,6 +8,7 @@ html {
 }
 
 .link-card h2 {
+  display: inline-block;
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
   margin: .3rem 0;
@@ -30,6 +31,10 @@ body:hover {
 .link-card {
   color: #512200;
   text-decoration: none;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
 }
 
 .two-columns {
@@ -68,7 +73,7 @@ dl {
   font-weight: bold;
   margin: 0 0 1rem;
   margin-left: 5rem;
-  margin-right:5rem;
+  margin-right: 5rem;
   padding: .7rem;
   text-align: center;
 }
